@@ -50,7 +50,7 @@ h1 {
     background: #FFFFFF;
     text-align: center;
 }
-.content-wthree, .w3layouts-main{
+.sign-in-form{
 	margin-left: 28%;
 }
 .w3layouts-main {
@@ -660,6 +660,16 @@ ul.top-links li a i.fa.fa-facebook:hover ,ul.top-links li a i.fa.fa-twitter:hove
 
 .form-row{
 	color: white
+}
+
+a{
+	color: white;
+}
+a:active, a:focus, a:hover {
+	
+		color: #128f76;
+		text-decoration: none;
+	
 }
 
 

@@ -17,9 +17,8 @@ class Signin extends React.Component {
     <div className="layer signup">
     <a href="/">Back</a>
           <h1>SignIn Form</h1>
-          
-            <div className="w3layouts-main">
-              <h2>Babysitter Signup</h2>
+            <div className="w3layouts-main sign-in-form">
+            <h2> Signin </h2>
               <div className="social_icons agileinfo">
                 <ul className="top-links">
                   {/* <li><a href="#"><i className="fa fa-facebook" /></a></li>
@@ -31,23 +30,27 @@ class Signin extends React.Component {
               <h3>Have an account?</h3> */}
               <form action="#" method="post" onSubmit={this.onFormSubmit}>
                 <div className="email">
-                <div className="email">
+                {/* <div className="email">
                   <input placeholder="Full-Name" name="full_name" type="text" required />
                   <span className="icons i1"><i aria-hidden="true" /></span>
-                </div>
-                <div className="email">
+                </div> */}
+                {/* <div className="email">
                   <input placeholder="Location" name="Location" type="text" required />
                   <span className="icons i1"><i aria-hidden="true" /></span>
-                </div>
-                <div className="email">
+                </div> */}
+                {/* <div className="email">
                   <input placeholder="Experience" name="Experience" type="text" required />
                   <span className="icons i1"><i aria-hidden="true" /></span>
-                </div>
+                </div> */}
                   <input placeholder="E-Mail" name="Email" type="email" required />
                   <span className="icons i1"><i className="fa fa-envelope-o" aria-hidden="true" /></span>
                 </div>
                 <div className="email">
                   <input placeholder="Password" name="Password" type="password" required />
+                  <span className="icons i2"><i className="fa fa-unlock" aria-hidden="true" /></span>
+                </div>
+                <div className="email">
+                  <input placeholder="Retype-Password" name="Password" type="password" required />
                   <span className="icons i2"><i className="fa fa-unlock" aria-hidden="true" /></span>
                 </div>
                 <input type="submit" defaultValue="Submit" name="login" />
