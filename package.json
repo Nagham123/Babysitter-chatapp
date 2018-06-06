@@ -1,25 +1,29 @@
 {
   "name": "react_spa",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.1.1",
-    "eslint-plugin-react": "^7.8.2",
-    "react": "^16.4.0",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.4.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
-    "react-scroll": "^1.7.9"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd back && npm start",
+    "client": "cd front && npm start",
+    "back": "cd back && npm install",
+    "front": "cd front && npm install",
+    "start": "concurrently --kill-others-on-fail --names \" server client \" \"npm run server\" \"npm run client\" ",
+    "install": "concurrently --kill-others-on-fail --names \" front back \" \"npm run front\" \"npm run back\" "
   },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "eslint": "^4.19.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagham123/Babysitter-chatapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nagham123/Babysitter-chatapp/issues"
+  },
+  "homepage": "https://github.com/Nagham123/Babysitter-chatapp#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "socket.io-file-client": "^2.0.2"
   }
 }

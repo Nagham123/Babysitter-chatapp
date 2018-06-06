@@ -12,7 +12,7 @@ class Home extends React.Component {
             <div>
                 <Menu history={this.props.history} />
                 <Header />
-                <Portfolios />
+                <Portfolios babySitterPortfolios={this.props.babySitterPortfolios} />
             </div>
         )
     }
