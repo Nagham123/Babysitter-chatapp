@@ -25,7 +25,11 @@ a{text-decoration:none;}
 .vertical-top{	vertical-align:top;}/* vertical align top */
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
-img{max-width:100%;}
+
+
+img{max-width:100%;
+	width: 80em;
+}
 /*end reset*/
 .signup {
     background-attachment: fixed;
@@ -119,7 +123,7 @@ input[type="submit"]:hover,.content-wthree input[type="submit"]:hover {
     z-index: 999;
 }
 .content-wthree, .w3layouts-main {
-    padding: 50px 0;
+    padding: 13px 0;
     text-align: center;
 }
 .content-wthree p {
@@ -663,7 +667,7 @@ ul.top-links li a i.fa.fa-facebook:hover ,ul.top-links li a i.fa.fa-twitter:hove
 }
 
 a{
-	color: white;
+	color: rgba(0, 60, 255, 0.63);
 }
 a:active, a:focus, a:hover {
 	
