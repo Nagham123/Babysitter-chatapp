@@ -71,4 +71,9 @@ io.on('connection', (socket) => {
         console.log('Aborted: ', fileInfo);
     });
 
+    //chat
+    socket.on('SEND_MESSAGE', function(data){
+        io.emit('RECEIVE_MESSAGE', data);
+    })
+
 });

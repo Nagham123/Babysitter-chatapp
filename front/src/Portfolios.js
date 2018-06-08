@@ -8,7 +8,7 @@ const SampleBabySitter = ({name,location,experience,email,image}) => {
     <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
       <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
         <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
-          <i className="fa fa-search-plus fa-3x" />
+          <a href="/chat"><i className="fab fa-rocketchat" /></a>
         </div>
       </div>
       <img className="img-1" src={"//localhost:8080/images/"+ image} alt />
