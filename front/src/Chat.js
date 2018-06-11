@@ -35,12 +35,13 @@ class Chat extends React.Component{
     }
     render(){
         return (
-            <div className="container">
+            <div className="container-chat">
+                    <a href="/">Back</a>
                 <div className="row">
                     <div className="col-4">
                         <div className="card">
                             <div className="card-body">
-                                <div className="card-title">Babysitter Chat</div>
+                                <div className="card-title">Chat</div>
                                 <hr/>
                                 <div className="messages">
                                     {this.state.messages.map(message => {
