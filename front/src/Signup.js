@@ -64,7 +64,7 @@ class Signup extends React.Component {
               <h3>Have an account?</h3> */}
             <form onSubmit={this.handleBabysitterSubmit}>
               <div className="email">
-                <div className="email">
+                <div className="upload-photo">
                   <input type="file" id="photo" name="photo" />
                 </div>
                 <div className="email">
@@ -81,7 +81,7 @@ class Signup extends React.Component {
                   <span className="icons i1"><i aria-hidden="true" /></span>
                 </div>
                 <input placeholder="E-Mail" name="Email" type="email" /*value={this.state.email}*/ onChange={this.handleChange} required />
-                <span className="icons i1"><i className="fa fa-envelope-o" aria-hidden="true" /></span>
+                <span className="icons i1"><i className="fa fa-envelope" aria-hidden="true" /></span>
               </div>
               <div className="email">
                 <input placeholder="Password" name="Password" type="password" /*value={this.state.password}*/ onChange={this.handleChange} required />
@@ -97,11 +97,11 @@ class Signup extends React.Component {
             {/* <div className="alert-close"> </div> */}
             <div className="content-wthree">
               {/* <i className="fa fa-paper-plane-o" aria-hidden="true" /> */}
-              <h2>Mother Signup</h2>
+              <h2>Gardian Signup</h2>
               <form onSubmit={this.handleMomSubmit}>
                 <div className="email">
                   <input type="email" className="email" name="eamil" placeholder="E-mail" required />
-                  <span className="icons i1"><i className="fa fa-envelope-o" aria-hidden="true" /></span>
+                  <span className="icons i1"><i className="fa fa-envelope" aria-hidden="true" /></span>
                 </div>
                 <div className="email">
                   <input type="email" className="email" name="eamil" placeholder="Password" required />

@@ -1,23 +1,23 @@
 import React from 'react';
 import { render } from 'react-dom'
 
-const SampleBabySitter = ({name,location,experience,email,image}) => {
-  return(
+const SampleBabySitter = ({ name, location, experience, email, image }) => {
+  return (
     <div className="col-md-6 col-lg-4">
-    {/* <h3 style = {{color: 'black'}}>{title}</h3> */}
-    <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-      <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
-        <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
-          <a href="/chat"><i className="fab fa-rocketchat" /></a>
+      {/* <h3 style = {{color: 'black'}}>{title}</h3> */}
+      <a className="portfolio-item d-block mx-auto" href="game.png">
+        <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
+          <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
+            <a href="/chat"><i className="fab fa-rocketchat" /></a>
+          </div>
         </div>
-      </div>
-      <img className="img-1" src={"//localhost:8080/images/"+ image} alt />
-      <h2>{name}</h2>
-      <p>{experience}</p>
-      <p>{location}</p>
-      <a>{email}</a>
-    </a>
-  </div>
+        <img className="img-1" src={"//localhost:8080/images/" + image} alt />
+        <h2>{name}</h2>
+        <p>{experience}</p>
+        <p>{location}</p>
+        <a>{email}</a>
+      </a>
+    </div>
   )
 }
 
@@ -48,7 +48,7 @@ class Portfolios extends React.Component {
       //     source: "submarine.png"
       //   }
       // ]
-    } 
+    }
   }
   render() {
     return (

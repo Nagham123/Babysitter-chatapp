@@ -79,7 +79,7 @@ class App extends React.Component {
           addMessage={this.addMessage}
         />} />
         <Route exact path='/signin' render={(match) => <Signin history={match.history} />} />
-        <Route exact path='/chat' render={(match) => <Chat/>} />
+        <Route exact path='/chat' render={(match) => <Chat />} />
       </Switch>
     )
   }
