@@ -43,7 +43,7 @@ class Signin extends React.Component {
                   <span className="icons i1"><i aria-hidden="true" /></span>
                 </div> */}
                   <input placeholder="E-Mail" name="Email" type="email" required />
-                  <span className="icons i1"><i className="fa fa-envelope-o" aria-hidden="true" /></span>
+                  <span className="icons i1"><i className="fa fa-envelope" aria-hidden="true" /></span>
                 </div>
                 <div className="email">
                   <input placeholder="Password" name="Password" type="password" required />

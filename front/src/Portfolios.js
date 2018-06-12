@@ -11,7 +11,7 @@ const SampleBabySitter = ({ name, location, experience, email, image }) => {
             <a href="/chat"><i className="fab fa-rocketchat" /></a>
           </div>
         </div>
-        <img className="img-1" src={"//localhost:8080/images/" + image} alt />
+        <img className="img-1" src={"//localhost:4035/images/" + image} alt />
         <h2>{name}</h2>
         <p>{experience}</p>
         <p>{location}</p>

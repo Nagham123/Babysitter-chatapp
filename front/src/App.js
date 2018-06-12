@@ -28,7 +28,7 @@ class App extends React.Component {
   }
 
   componentDidMount = () => {
-    const socket = io('http://localhost:8080')
+    const socket = io('http://localhost:4035')
     const uploader = new SocketIOFileClient(socket);
     this.setState({ socket })
     this.setState({ uploader })

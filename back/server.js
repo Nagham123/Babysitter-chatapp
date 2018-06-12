@@ -3,8 +3,8 @@ var app = express();
 const SocketIOFile = require('socket.io-file')
 
 app.use('/images/', express.static('./images'))
-server = app.listen(8080, function () {
-    console.log('server is running on port 8080')
+server = app.listen(4035, function () {
+    console.log('server is running on port 4035')
 });
 
 var socket = require('socket.io');
