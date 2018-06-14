@@ -49,10 +49,10 @@ class Signup extends React.Component {
 
       <div className="layer signup">
         <a href="/">Back</a>
-        <h1>Sign up Form</h1>
+        <h1>Sign up</h1>
         <div className="main-agile1">
           <div className="w3layouts-main">
-            <h2>Babysitter Signup</h2>
+            <h2>Babysitter</h2>
             <div className="social_icons agileinfo">
               <ul className="top-links">
                 {/* <li><a href="#"><i className="fa fa-facebook" /></a></li>
@@ -97,7 +97,7 @@ class Signup extends React.Component {
             {/* <div className="alert-close"> </div> */}
             <div className="content-wthree">
               {/* <i className="fa fa-paper-plane-o" aria-hidden="true" /> */}
-              <h2>Gardian Signup</h2>
+              <h2>Guardian</h2>
               <form onSubmit={this.handleMomSubmit}>
                 <div className="email">
                   <input type="email" className="email" name="eamil" placeholder="E-mail" required />

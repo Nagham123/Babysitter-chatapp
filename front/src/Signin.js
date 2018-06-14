@@ -16,9 +16,9 @@ class Signin extends React.Component {
       
     <div className="layer signup">
     <a href="/">Back</a>
-          <h1>SignIn Form</h1>
+          <h1>  </h1>
             <div className="w3layouts-main sign-in-form">
-            <h2> Signin </h2>
+            <h2> Sign in </h2>
               <div className="social_icons agileinfo">
                 <ul className="top-links">
                   {/* <li><a href="#"><i className="fa fa-facebook" /></a></li>
